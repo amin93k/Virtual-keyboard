@@ -1,0 +1,101 @@
+:root{
+    --color1 : crimson;
+    --color2 : #dc5014;
+    --color3 : #dc8f14;
+    --color4 : #dcb714;
+    --color5 : #f0d60c;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+.container{
+    display: grid;
+    gap: 10px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    width: 3rem;
+    height: 3rem;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.esc{
+ width: 3.5rem;
+}
+.back{
+ width: 5rem;
+}
+.tab{
+ width: 5.5rem;
+}
+.caps{
+ width: 6rem;
+}
+.enter{
+ width: 6rem;
+}
+.shift{
+  width: 7.8rem;
+}
+.space{
+    width: 27.4rem;
+}
+.color1{
+    background-color: var(--color1);
+}
+.color2{
+    background-color: var(--color2);
+}
+.color3{
+    background-color: var(--color3);
+}
+.color4{
+    background-color: var(--color4);
+}
+.color5{
+    background-color: var(--color5);
+}
+.selected{
+    transform: scale(80%);
+}
+label{
+    font-size: 20px;
+    font-weight: 400;
+}
+input{
+    padding: 8px;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
